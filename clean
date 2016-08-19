@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# clean
+#
+# Cleans up the emacs buffers. Dogamm I hate them.
+
+rm *~ &>/dev/null
+rm *.*~ &>/dev/null
+rm \#*\# &>/dev/null
+rm \#*.*\# &>/dev/null
+rm \.*~ &> /dev/null
